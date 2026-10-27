@@ -1,0 +1,241 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/fpga-voice-modulator/sim/tb_i2s
+vcomb_filter
+Z1 !s110 1793061407
+!i10b 1
+!s100 Qfo<hF48F`=a:SZb81gA:1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ILSZDfMf:0<QY08ScL=6Nb1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1792998831
+8comb_filter.v
+Fcomb_filter.v
+!i122 90
+L0 12 88
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1793061407.000000
+!s107 comb_filter.v|
+!s90 -reportprogress|300|-work|work|comb_filter.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vdsp_core
+R1
+!i10b 1
+!s100 BEbTO0hNJX7d6GDQKzTET2
+R2
+IHM7QI[BmR0[:U1ASO`;IO2
+R3
+R0
+R4
+8dsp_core.v
+Fdsp_core.v
+!i122 92
+L0 11 106
+R5
+r1
+!s85 0
+31
+R6
+!s107 dsp_core.v|
+!s90 -reportprogress|300|-work|work|dsp_core.v|
+!i113 1
+R7
+R8
+vfir_mac
+R1
+!i10b 1
+!s100 Y4J8_>JzcHi@_T^3AOO4h3
+R2
+IW>B[2Q7;[R?jcJZ7^k<FF1
+R3
+R0
+w1792603081
+8fir_mac.v
+Ffir_mac.v
+!i122 89
+L0 10 160
+R5
+r1
+!s85 0
+31
+R6
+!s107 fir_mac.v|
+!s90 -reportprogress|300|-work|work|fir_mac.v|
+!i113 1
+R7
+R8
+vfir_rom
+R1
+!i10b 1
+!s100 hA@meNb9aZ9]]i2;C3L2G1
+R2
+Ik9^IKAWcnBjg7QZBR3OBe1
+R3
+R0
+w1792599637
+8fir_rom.v
+Ffir_rom.v
+!i122 88
+L0 9 32
+R5
+r1
+!s85 0
+31
+R6
+!s107 fir_rom.v|
+!s90 -reportprogress|300|-work|work|fir_rom.v|
+!i113 1
+R7
+R8
+vi2s_clk_gen
+R1
+!i10b 1
+!s100 c]dLn=cIY]?TkHlmo0J?U3
+R2
+InF2BWW1j1F8AVLLM7LQE`1
+R3
+R0
+Z9 w1793052646
+8i2s_clk_gen.v
+Fi2s_clk_gen.v
+!i122 84
+L0 16 32
+R5
+r1
+!s85 0
+31
+R6
+!s107 i2s_clk_gen.v|
+!s90 -reportprogress|300|-work|work|i2s_clk_gen.v|
+!i113 1
+R7
+R8
+vi2s_serializer
+R1
+!i10b 1
+!s100 hU<ocF2WC>C9A?8;RUk=U3
+R2
+IhO9MQjOORLX0;D4>FKaW01
+R3
+R0
+R9
+8i2s_serializer.v
+Fi2s_serializer.v
+!i122 85
+L0 18 42
+R5
+r1
+!s85 0
+31
+R6
+!s107 i2s_serializer.v|
+!s90 -reportprogress|300|-work|work|i2s_serializer.v|
+!i113 1
+R7
+R8
+vi2s_tx
+R1
+!i10b 1
+!s100 m9XaPHz[CdDD0OQNG>e]E2
+R2
+IHg7an8VidlaXN_FH6Ze`b2
+R3
+R0
+R9
+8i2s_tx.v
+Fi2s_tx.v
+!i122 86
+L0 14 48
+R5
+r1
+!s85 0
+31
+R6
+!s107 i2s_tx.v|
+!s90 -reportprogress|300|-work|work|i2s_tx.v|
+!i113 1
+R7
+R8
+vtanh_lut
+R1
+!i10b 1
+!s100 MT?^U^V<W0`K<PTQFnNl^2
+R2
+I;kAY57^R6lS1bbaiH`UNE1
+R3
+R0
+R4
+8tanh_lut.v
+Ftanh_lut.v
+!i122 91
+L0 11 63
+R5
+r1
+!s85 0
+31
+R6
+!s107 tanh_lut.v|
+!s90 -reportprogress|300|-work|work|tanh_lut.v|
+!i113 1
+R7
+R8
+vtb_integracao
+R1
+!i10b 1
+!s100 FbC4lj@jmMKObOdQOCFcD2
+R2
+I:;mnQB]iD;>71^MD>3=_k2
+R3
+R0
+w1793061399
+8tb_i2s.v
+Ftb_i2s.v
+!i122 93
+L0 7 283
+R5
+r1
+!s85 0
+31
+R6
+!s107 tb_i2s.v|
+!s90 -reportprogress|300|-work|work|tb_i2s.v|
+!i113 1
+R7
+R8
+vwav_buffer
+R1
+!i10b 1
+!s100 >lgS[2d>Jcb5_RfRRXC[o0
+R2
+IFz4Ko?h52MJ3d902ob0932
+R3
+R0
+w1792597819
+8wav_buffer.v
+Fwav_buffer.v
+!i122 87
+L0 26 99
+R5
+r1
+!s85 0
+31
+R6
+!s107 wav_buffer.v|
+!s90 -reportprogress|300|-work|work|wav_buffer.v|
+!i113 1
+R7
+R8
