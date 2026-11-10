@@ -20,9 +20,14 @@ Créditos: https://github.com/WangXuan95/FPGA-SDcard-Reader
 | SD_DAT0 | PIN_AE14 | input |
 | CLOCK_50 | PIN_Y2 | input |
 | KEY0 | PIN_M23 | input |
+| SW[0] | PIN_AB28 | input |
+| SW[1] | PIN_AC28 | input |
 | LEDR[0..3] | PIN_G19, F19, E19, F21 | output |
+| LEDR[4..7] | PIN_F18, E18, J19, H19 | output |
 | HEX0[0..6] | PIN_G18, F22, E17, L26, L25, J22, H22 | output |
 | HEX1[0..6] | PIN_M24, Y22, W21, W22, W25, U23, U24 | output |
+| HEX2[0..6] | PIN_AA25, AA26, Y25, W26, Y26, W27, W28 | output |
+| HEX3[0..6] | PIN_V21, U21, AB20, AA21, AD24, AF23, Y19 | output |
 
 ## Pastas
 
